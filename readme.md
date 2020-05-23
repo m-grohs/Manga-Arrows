@@ -8,6 +8,7 @@ A Firefox Extension that provides Prev/Next Chapter Navigation with the Arrow Ke
 -   Manganelo
 -   Leviatan Scans
 -   Zero Scans
+-   Reaper Scans
 
 ## Function
 
