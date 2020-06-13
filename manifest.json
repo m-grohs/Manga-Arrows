@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Manga Arrows",
-    "version": "1.23",
+    "version": "1.3",
 
     "description": "adds Arrow functionality for prev/next Chapter on some Manga Readers",
 
