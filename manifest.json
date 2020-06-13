@@ -7,14 +7,7 @@
 
     "content_scripts": [
         {
-            "matches": [
-                "*://manganelo.com/chapter/*",
-                "*://www.webtoons.com/en/*",
-                "*://leviatanscans.com/comics/*",
-                "*://zeroscans.com/comics/*",
-                "*://reaperscans.com/comics/*",
-                "*://methodscans.com/comics/*"
-            ],
+            "matches": ["*://manganelo.com/chapter/*", "*://www.webtoons.com/en/*", "*://*/comics/*"],
             "js": ["mangaArrows.js"]
         }
     ]
