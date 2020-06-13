@@ -4,7 +4,12 @@ const baseURL = window.location.origin;
 let prevSrc, nextSrc;
 
 // Get the Source Class of the Prev/Next Button
-if (baseURL.includes('leviatanscans') || baseURL.includes('zeroscans') || baseURL.includes('reaperscans')) {
+if (
+    baseURL.includes('leviatanscans') ||
+    baseURL.includes('zeroscans') ||
+    baseURL.includes('reaperscans') ||
+    baseURL.includes('methodscans')
+) {
     prevSrc = '.fa-arrow-left';
     nextSrc = '.fa-arrow-right';
 } else if (baseURL.includes('manganelo')) {

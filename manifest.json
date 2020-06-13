@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Manga Arrows",
-    "version": "1.22",
+    "version": "1.23",
 
     "description": "adds Arrow functionality for prev/next Chapter on some Manga Readers",
 
@@ -12,7 +12,8 @@
                 "*://www.webtoons.com/en/*",
                 "*://leviatanscans.com/comics/*",
                 "*://zeroscans.com/comics/*",
-                "*://reaperscans.com/comics/*"
+                "*://reaperscans.com/comics/*",
+                "*://methodscans.com/comics/*"
             ],
             "js": ["mangaArrows.js"]
         }
