@@ -1,2 +1,4 @@
 web-ext-artifacts/
 .web-extension-id
+old-extensions
+node_modules

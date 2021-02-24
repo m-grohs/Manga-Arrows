@@ -3,7 +3,7 @@
 const BASE_URL = window.location.origin;
 const BASE_PATH = window.location.pathname;
 let prevSrc, nextSrc;
-
+console.log('Begin Logging:');
 // Get the Source Class of the Prev/Next Button
 // BASE_URL for unique sites, BASE_PATH for generic themes sites
 if (BASE_PATH.includes('/comics/')) {
@@ -15,18 +15,22 @@ if (BASE_PATH.includes('/comics/')) {
 } else if (BASE_URL.includes('webtoon')) {
     prevSrc = '.pg_prev';
     nextSrc = '.pg_next';
+} else if (BASE_URL.includes('asurascans.com')) {
+    prevSrc = '.ch-prev-btn';
+    nextSrc = '.ch-next-btn';
 }
 
-// Check if Vars are set and process left/right arrow
 if (prevSrc && nextSrc) {
-    document.addEventListener('keydown', (e) => {
+    // Check if Vars are set and process left/right arrow
+    document.addEventListener('keydown', (event) => {
         // go previous chapter with left arrow
-        if (e.keyCode === 37) {
+        console.log(event.key);
+        if (event.key === 'ArrowLeft') {
             window.location.href =
                 document.querySelector(prevSrc).href || document.querySelector(prevSrc).parentElement.href;
         }
         // go next chapter with right arrow
-        if (e.keyCode === 39) {
+        if (event.key === 'ArrowRight') {
             window.location.href =
                 document.querySelector(nextSrc).href || document.querySelector(nextSrc).parentElement.href;
         }
