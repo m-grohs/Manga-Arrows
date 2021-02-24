@@ -3,7 +3,7 @@
 const BASE_URL = window.location.origin;
 const BASE_PATH = window.location.pathname;
 let prevSrc, nextSrc;
-console.log('Begin Logging:');
+
 // Get the Source Class of the Prev/Next Button
 // BASE_URL for unique sites, BASE_PATH for generic themes sites
 if (BASE_PATH.includes('/comics/')) {
