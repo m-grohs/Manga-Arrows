@@ -15,20 +15,20 @@ if (BASE_PATH.includes('/comics/')) {
 } else if (BASE_URL.includes('webtoon')) {
     prevSrc = '.pg_prev';
     nextSrc = '.pg_next';
-} else if (BASE_URL.includes('asurascans.com')) {
+} else if (BASE_URL.includes('asurascans')) {
     prevSrc = '.ch-prev-btn';
     nextSrc = '.ch-next-btn';
 }
 
+// Check if Vars are set and process left/right arrow
 if (prevSrc && nextSrc) {
-    // Check if Vars are set and process left/right arrow
     document.addEventListener('keydown', (event) => {
         // go previous chapter with left arrow
-        console.log(event.key);
         if (event.key === 'ArrowLeft') {
             window.location.href =
                 document.querySelector(prevSrc).href || document.querySelector(prevSrc).parentElement.href;
         }
+
         // go next chapter with right arrow
         if (event.key === 'ArrowRight') {
             window.location.href =

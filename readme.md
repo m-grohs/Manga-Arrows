@@ -7,6 +7,7 @@ A Firefox Extension that provides Prev/Next Chapter Navigation with the Arrow Ke
 -   Webtoon
 -   Manganelo
 -   Manga Sites with a Generic Theme like Zero Scans or Reaper Scans
+-   Asurascans
 
 ## Function
 
