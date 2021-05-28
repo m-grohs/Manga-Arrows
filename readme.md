@@ -5,9 +5,9 @@ A Firefox Extension that provides Prev/Next Chapter Navigation with the Arrow Ke
 ## Supported Sites
 
 -   Webtoon
--   Manganelo
--   Manga Sites with a Generic Theme like Zero Scans or Reaper Scans
+-   Manganelo/Manganato
 -   Asurascans
+-   Manga Sites with a Generic Theme like Zero Scans
 
 ## Function
 

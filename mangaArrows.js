@@ -9,7 +9,7 @@ let prevSrc, nextSrc;
 if (BASE_PATH.includes('/comics/')) {
     prevSrc = '.fa-arrow-left';
     nextSrc = '.fa-arrow-right';
-} else if (BASE_URL.includes('manganelo')) {
+} else if (BASE_URL.includes('manganato')) {
     prevSrc = '.navi-change-chapter-btn-prev';
     nextSrc = '.navi-change-chapter-btn-next';
 } else if (BASE_URL.includes('webtoon')) {
