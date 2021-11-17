@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Manga Arrows",
-    "version": "1.4.2",
+    "version": "1.4.3",
 
     "description": "adds prev/next Chapter functionality for some generic Manga Sites that dont have this feature themselves",
 
@@ -12,7 +12,8 @@
                 "*://readmanganato.com/*",
                 "*://www.webtoons.com/en/*",
                 "*://*/comics/*",
-                "*://www.asurascans.com/*"
+                "*://www.asurascans.com/*",
+                "*://flamescans.org/*"
             ],
             "js": ["mangaArrows.js"]
         }

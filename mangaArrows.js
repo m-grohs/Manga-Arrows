@@ -15,7 +15,7 @@ if (BASE_PATH.includes('/comics/')) {
 } else if (BASE_URL.includes('webtoon')) {
     prevSrc = '.pg_prev';
     nextSrc = '.pg_next';
-} else if (BASE_URL.includes('asurascans')) {
+} else if (BASE_URL.includes('asurascans') || BASE_URL.includes('flamescans')) {
     prevSrc = '.ch-prev-btn';
     nextSrc = '.ch-next-btn';
 }
