@@ -1,1 +1,5 @@
-{}
+{
+  "dependencies": {
+    "web-ext": "^7.2.0"
+  }
+}
