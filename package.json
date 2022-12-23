@@ -1,5 +1,15 @@
 {
-  "dependencies": {
-    "web-ext": "^7.2.0"
-  }
+    "name": "manga-arrows",
+    "description": "A Firefox Extension that provides Prev/Next Chapter Navigation with the Arrow Keys on specific Manga Sites that don't have this feature themselves.",
+    "version": "1.5.3",
+    "main": "mangaArrows.js",
+    "devDependencies": {
+        "web-ext": "^7.2.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/m-grohs/Manga-Arrows.git"
+    },
+    "author": "mgrohs",
+    "license": "MIT"
 }
