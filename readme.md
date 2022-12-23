@@ -8,6 +8,7 @@ A Firefox Extension that provides Prev/Next Chapter Navigation with the Arrow Ke
 -   Manganelo/Manganato
 -   Asurascans
 -   Manga Sites with a Generic Theme like Zero Scans
+-   Mange Sites where the Navigation Buttons are 'Previous'/'Next' in case of Tailwind Themes without any direct class for navigation
 
 ## Function
 
