@@ -2,7 +2,12 @@
 
 const BASE_URL = window.location.origin;
 const BASE_PATH = window.location.pathname;
-const SITE_ARRAY = ['https://www.asurascans.com', 'https://asura.gg', 'https://luminousscans.com'];
+const SITE_ARRAY = [
+    'https://www.asurascans.com',
+    'https://asurascans.com',
+    'https://asura.gg',
+    'https://luminousscans.com'
+];
 
 let prevSrc, nextSrc, prevHref, nextHref;
 
