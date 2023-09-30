@@ -10,7 +10,7 @@ const SITE_ARRAY = [
 	'https://asuracomics.com',
 	'https://asuracomics.gg',
 	'https://luminousscans.com',
-	'https://asuratoon.com/',
+	'https://asuratoon.com',
 	'asura'
 ];
 
