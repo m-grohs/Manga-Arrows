@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Manga Arrows",
-	"version": "1.5.10",
+	"version": "1.5.12",
 
 	"description": "Adds prev/next Chapter functionality for some generic Manga Sites that dont have this feature themselves",
 
@@ -11,6 +11,7 @@
 				"*://manganelo.com/chapter/*",
 				"*://manganato.com/*",
 				"*://chapmanganato.com/*",
+				"*://chapmanganato.to/*",
 				"*://www.webtoons.com/en/*",
 				"*://*/comics/*",
 				"*://www.asurascans.com/*",
@@ -22,7 +23,8 @@
 				"*://asuratoon.com/*",
 				"*://flamescans.org/*",
 				"*://luminousscans.com/*",
-				"*://reaperscans.com/*"
+				"*://reaperscans.com/*",
+				"*://reapercomics.com/*"
 			],
 			"js": ["mangaArrows.js"]
 		}

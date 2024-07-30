@@ -44,7 +44,7 @@ if (BASE_URL.includes('webtoon')) {
 // This is atm a special Case as ReaperScans switched to a new Desing with Tailwind and has no more
 // any prev/next button indicators except the textContent of "Previous" or "Next"!
 // Workaround for this works atm but should be Refactored at some Point.
-if (BASE_URL.includes('reaperscans')) {
+if (BASE_URL.includes('reaperscans') || BASE_URL.includes('reapercomics')) {
 	const anchorNodes = document.querySelectorAll('a');
 
 	for (const anchor of anchorNodes) {

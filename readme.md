@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> This Repo has been Archieved.
+> A New Extension can be found here
+> [MANav](https://github.com/m-grohs/MANav)
+
 # Manga Arrows
 
 A Firefox Extension that provides Prev/Next Chapter Navigation with the Arrow Keys on specific Manga Sites that don't have this feature themselves.
